@@ -1,5 +1,7 @@
 import React from 'react'
 import todo_icon from '../assets/todo_icon.png'
+import TodoItems from './TodoItems'
+
 const ToDo = () => {
   return (
     <div className='bg-orange-50 place-self-center w-11/12 max-w-md 
@@ -27,7 +29,7 @@ text-lg font-medium Cursor-pointer'> ADD +   </button>
 
 {/*  list  */}
 
-
+ <TodoItems/>
 
     
     </div>
