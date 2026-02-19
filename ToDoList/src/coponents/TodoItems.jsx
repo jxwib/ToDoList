@@ -5,14 +5,15 @@ import delet from '../assets/delet.png'
 import edit from '../assets/Edit.png'
 
 
-const TodoItems = () => {
+const TodoItems = ({text}) => {
   return (
 
     <div className='flex items-center my-3 gap-2'>
       <div className='flex flex-1 items-center cursor-pointer'>
 
         <img src = {tick}  alt="" className='w-12' />
-           <p className='tex-slate-700 ml-4 text-[17px]'>learn coding with react</p>
+           <p className='tex-slate-700 ml-4 text-[17px]'>
+            {text} </p>
 
       </div>
       
